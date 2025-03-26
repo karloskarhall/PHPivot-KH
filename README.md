@@ -1,12 +1,12 @@
 # PHPivot
 A flexible Pivot Table library for PHP.
 
-#Example01
+## Example01
 - Using the film dataset from: https://perso.telecom-paristech.fr/~eagan/class/igr204/datasets
 - Go to [Example01/Example.php](Example01/Example.php) to see how the library is used
 - See the output of Example.php [here](https://htmlpreview.github.io/?https://github.com/mhadjimichael/PHPivot/blob/master/Example01/Example.php.html)
 
-#Supported Features:
+## Supported Features:
 - Nested (infinite) rows and columns
 - Sum and Count Functions
 - Generate HTML Table
@@ -30,13 +30,13 @@ A flexible Pivot Table library for PHP.
     - Actual Values
     - Percentage of col/row
 
-#Features that need migration to the latest version/TODOs
+## Features that need migration to the latest version/TODOs
 - Display as: -Percentage of deepest level (@fix)
 - Color Coding (background) of data: (@fix)
     - Low->High/High->Low gradient
 - "Pivot Comparison" mechanism 
 
-#Usage example:
+## Usage example:
 ```php
 require 'PHPivot.php';
 
